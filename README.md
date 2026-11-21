@@ -48,7 +48,7 @@ O projeto simula a criação de um ambiente isolado de filial pronto para produ�
 
 ---
 
-## 📌 Autor
+## Autor
 
 **Bruno Cardoso Verchev** — Analista de Cloud Azure & Infraestrutura Híbrida  
 * **Certificações:** Microsoft Certified: Azure Fundamentals (AZ-900) | Em preparação final para **AZ-104**  
