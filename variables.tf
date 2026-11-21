@@ -1,17 +1,5 @@
-variable "resource_group_name" {
-  description = "Nome do Resource Group dedicado da filial"
+variable "admin_password" {
+  description = "Senha do administrador local da VM (fornecida via variavel de ambiente ou prompt)"
   type        = string
-  default     = "rg-filial-sp-v7"
-}
-
-variable "location" {
-  description = "Regiao do Microsoft Azure onde os recursos serao provisionados"
-  type        = string
-  default     = "centralus"
-}
-
-variable "vm_name" {
-  description = "Nome padrao da maquina virtual Windows da filial"
-  type        = string
-  default     = "srvwinprod07"
+  sensitive   = true
 }
