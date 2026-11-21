@@ -52,4 +52,4 @@ O projeto simula a criação de um ambiente isolado de filial pronto para produ�
 
 **Bruno Cardoso Verchev** — Analista de Cloud Azure & Infraestrutura Híbrida  
 * **Certificações:** Microsoft Certified: Azure Fundamentals (AZ-900) | Em preparação final para **AZ-104**  
-* **LinkedIn:** [://linkedin.com](https://www.://linkedin.com)
+* **LinkedIn:** https://www.linkedin.com/in/brunoverchev
