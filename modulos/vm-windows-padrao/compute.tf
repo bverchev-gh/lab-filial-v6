@@ -20,8 +20,8 @@ resource "azurerm_windows_virtual_machine" "vm" {
   resource_group_name = var.resource_group_name
   location            = var.location
   size                = "Standard_D2s_v5"
-  admin_username      = "adminlocal"
-  admin_password      = "FilialSegura2026!"
+  admin_username      = ""
+  admin_password      = ""
   network_interface_ids = [
     azurerm_network_interface.nic.id,
   ]
