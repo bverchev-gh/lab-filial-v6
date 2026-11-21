@@ -1,10 +1,10 @@
-# 🏢 Azure Enterprise Branch Lab (`lab-filial-v6`) — IaC com Terraform
+# Azure Enterprise Branch Lab (`lab-filial-v6`) — IaC com Terraform
 
 Este repositório implementa a arquitetura automatizada em **Terraform** para o provisionamento completo de uma **unidade/filial corporativa no Microsoft Azure**, aplicando segmentação de rede, controle granular de tráfego e padrões de *hardening* e governança.
 
 ---
 
-## 🏗️ Arquitetura & Cenário Implementado
+## Arquitetura & Cenário Implementado
 
 O projeto simula a criação de um ambiente isolado de filial pronto para produção, estruturado em camadas:
 
@@ -18,7 +18,7 @@ O projeto simula a criação de um ambiente isolado de filial pronto para produ�
 
 ---
 
-## 🛠️ Stack & Boas Práticas Aplicadas
+## Stack & Boas Práticas Aplicadas
 
 * **Cloud:** Microsoft Azure
 * **IaC:** Terraform (HCL) com separação modular (`main.tf`, `variables.tf`, `outputs.tf`, `providers.tf`)
@@ -26,7 +26,7 @@ O projeto simula a criação de um ambiente isolado de filial pronto para produ�
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 
 1. **Autentique-se na assinatura Azure:**
    ```bash
