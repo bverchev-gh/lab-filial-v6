@@ -16,12 +16,12 @@ resource "azurerm_network_interface_security_group_association" "associacao" {
 }
 
 resource "azurerm_windows_virtual_machine" "vm" {
-  name                = var.vm_name
-  resource_group_name = var.resource_group_name
-  location            = var.location
-  size                = "Standard_D2s_v5"
-  admin_username      = ""
-  admin_password      = ""
+  name                  = var.vm_name
+  resource_group_name   = var.resource_group_name
+  location              = var.location
+  size                  = "Standard_D2s_v5"
+  admin_username        = var.admin_username
+  admin_password        = var.admin_password
   network_interface_ids = [
     azurerm_network_interface.nic.id,
   ]
